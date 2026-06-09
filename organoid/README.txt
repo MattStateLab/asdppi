@@ -10,3 +10,4 @@ Scripts for FOXP1 organoid PIP-seq, CUT&Tag, and IHC analyses.
 - `FOXP1_fig8_stats_LME_v4_permutationBW.R`: Runs updated figure 8 model statistics with permutation testing.
 - `Diffpeaks_anno_FOXP1_R514H.R`: Performs CUT&Tag peak QC, annotation, GREAT enrichment, counting, and differential peak analysis.
 - `cuttag_FOXP1.sh`: SLURM shell pipeline for FOXP1 CUT&Tag trimming, alignment, duplicate marking, and peak calling.
+- `organoid_MEA_analysis`: Runs kilosort2 followed by mean firing rate analysis and raster plotting on sorted electrode data, as well as burst, ISI, and STTC analysis.
